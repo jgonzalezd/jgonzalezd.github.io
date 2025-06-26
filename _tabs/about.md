@@ -1,7 +1,7 @@
 ---
 # the default layout is 'page'
 icon: fas fa-info-circle
-order: 4
+order: 3
 ---
 
 A seasoned Full-Stack Senior Software Engineer with a passion for product development and specialty coffee. 
