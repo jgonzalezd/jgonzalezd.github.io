@@ -7,13 +7,13 @@ categories: [claude-code, ai-workflow]
 
 ## Leveling Up My Claude Code Workflow: It's All About the Cycle!
 
-It's funny, right? We've got these incredibly powerful ROBOTS capable of spitting out code faster than I can type `git commit`, and yet, the wisdom from years of software development still holds true. Writing code is just one piece of the puzzle. The processes we built to manage software creation? Turns out they work darn well with our AI coding buddies.
+It's funny, right? We've got these incredibly powerful AGENTS capable of spitting out code faster than I can type `git commit`, and yet, the wisdom from years of software development still holds true. Writing code is just one piece of the puzzle. The processes we built to manage software creation? Turns out they work darn well with our AI coding buddies.
 
 My current setup is heavily inspired by GitHub Flow – a battle-tested approach perfect for small, agile teams. And let's be honest, a team of "me + AI" is pretty small and needs to be agile! So, what does this look like? It’s a cycle: **Plan, Create, Test, Deploy.**
 
 ### Phase 1: Plan Like You Mean It!
 
-This is where I’ve found myself putting my "manager hat" back on, and surprisingly, I’m not mad about it. The more granular, specific, and atomic your planning, the better the ROBOTS perform.
+This is where I’ve found myself putting my "manager hat" back on, and surprisingly, I’m not mad about it. The more granular, specific, and atomic your planning, the better the AGENTS perform.
 
 1.  **GitHub Issues are King:** Everything starts as an issue. I mean *everything*. Initially, I might dump a bunch of ideas from a dictation session or a brainstorm with GPT-4o into a requirements doc, then have Claude Code break those down into initial issues. But then the real work begins: refining these issues. They need to be *tightly scoped*.
 2.  **The Almighty Slash Command:** I’ve got a detailed `/process-issue` slash command in Claude Code. This isn't just a simple prompt; it's a multi-step instruction manual for the AI.
@@ -56,10 +56,10 @@ I’ve been letting Claude Code make the commits more often than not on my curre
 
 This is non-negotiable. If you're going to let an AI write and commit code, you need a safety net woven from steel.
 
-1.  **Robust Test Suite:** I'm a big Rails fan for projects needing user management, and its integrated testing framework is a lifesaver. Getting the test suite up and running *before* any significant feature development was priority zero. TDD, which I used to grumble about, is a godsend for AI. The ROBOTS *love* TDD. Have them write the test, then the code to make it pass. It’s a fantastic way to keep them on track and counter scope drift.
+1.  **Robust Test Suite:** I'm a big Rails fan for projects needing user management, and its integrated testing framework is a lifesaver. Getting the test suite up and running *before* any significant feature development was priority zero. TDD, which I used to grumble about, is a godsend for AI. The AGENTS *love* TDD. Have them write the test, then the code to make it pass. It’s a fantastic way to keep them on track and counter scope drift.
 2.  **Puppeteer for UI:** For UI changes, having Claude Code use Puppeteer to click around in a browser and verify things is just *chef's kiss*. Watching it test its own visual work is both satisfying and incredibly useful for catching things simple unit tests might miss.
 3.  **Continuous Integration (CI):** Every commit Claude makes triggers GitHub Actions. This runs the full test suite and a linter (Ruff is my current favorite). If the checks don't pass, the PR is blocked. No exceptions.
-4.  **Pre-Commit Hooks are Your Best Friend:** This is a real game-changer. The ROBOTS *really* want to commit. By setting up pre-commit hooks (the `pre-commit` Python package is excellent for this), I can enforce linting, formatting, and even light test runs *before* the commit even happens locally.
+4.  **Pre-Commit Hooks are Your Best Friend:** This is a real game-changer. The AGENTS *really* want to commit. By setting up pre-commit hooks (the `pre-commit` Python package is excellent for this), I can enforce linting, formatting, and even light test runs *before* the commit even happens locally.
 
     ```yaml
     # .pre-commit-config.yaml example
@@ -79,7 +79,7 @@ This is non-negotiable. If you're going to let an AI write and commit code, you 
     ```
     This saves so much back-and-forth and keeps my GitHub Actions history cleaner because a lot of the silly mistakes get caught before they even hit the remote.
 
-If the ROBOTS get *really* good at self-correction via robust testing and linting, how does that change your personal threshold for reviewing AI-generated commits? Would you ever trust it completely for certain types of changes?
+If the AGENTS get *really* good at self-correction via robust testing and linting, how does that change your personal threshold for reviewing AI-generated commits? Would you ever trust it completely for certain types of changes?
 
 ### Phase 4: Deploy (aka PR and Merge)
 
@@ -103,11 +103,11 @@ Work trees? The idea of running multiple Claude instances in parallel on differe
 
 ### Final Thoughts
 
-This iterative cycle of Plan, Create, Test, and Deploy, supercharged with AI, has dramatically changed how I build software. I spend more time on high-level design and specification, and the ROBOTS handle a lot of the meticulous implementation and initial testing.
+This iterative cycle of Plan, Create, Test, and Deploy, supercharged with AI, has dramatically changed how I build software. I spend more time on high-level design and specification, and the AGENTS handle a lot of the meticulous implementation and initial testing.
 
 We're setting up these elaborate workflows for the AI, but what parts of *our own* human workflow could we optimize or even automate away to better complement our AI partners? It’s an exciting time to be a developer, that’s for sure!
 
-Let me know your own workflows and how you're wrangling these ROBOTS! It’s always fun to compare notes.
+Let me know your own workflows and how you're wrangling these AGENTS! It’s always fun to compare notes.
 
 ---
 *This post was written 95% by a human, with AI assisting in remembering all the steps I actually take.*
