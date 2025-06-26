@@ -8,7 +8,7 @@ order: 1
 
 Website: [https://outperformeros.com](https://outperformeros.com)
 
-I'm building this as Jun 25, 2025.
+I'm building this as of Jun 25, 2025.
 
 _Keep an eye for its upcoming launch_
 
