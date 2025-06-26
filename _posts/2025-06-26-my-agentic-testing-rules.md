@@ -2,6 +2,7 @@
 layout: post
 title: My Agentic testing Rules
 date: 2025-06-26 15:55 +0000
+categories: [claude-code, ai-workflow]
 ---
 
 As I work on my current project, I wanted to setup e2e testing as possible and make sure that the Agent don't introduce functionality or UI bugs while working on new features.
@@ -103,7 +104,55 @@ To ensure the AI establishes and adheres to a robust testing methodology through
 
 ```
 
-And this worked really well.
+So I can apply this strategy, for example like this:
+
+```
+Before continue with the next task lelt's First, review the current testing strategy. Review the taks we haven't completed in our plan and adjust as needed to implement our recently enhanced testing strategy.
+
+The objective of this taks is to setup our e2e testing workflow in our project and make sure we maintain it.@workflow-setup-review.mdc  use the workflow-setup-review to adjust our tasks to implement the testing strategy
+```
+
+---
+
+And **this worked really well**, the AI replied with this:
+
+_I'll review our current testing strategy and adjust our tasks to implement the comprehensive testing workflow outlined in the `workflow-setup-review` rule. Let me start by proposing a testing stack and then updating our task plan._
+
+## Testing Stack Proposal
+
+Based on the workflow-setup-review rule and our project requirements, I propose the following testing stack for The Outperformer OS:
+
+**Testing Stack:**
+- **Unit/Integration Tests**: Vitest (fast, modern, great TypeScript support, works well with Vite)
+- **E2E Tests**: Playwright (excellent cross-browser support, built-in screenshot capabilities, reliable)
+- **Component Testing**: React Testing Library + Vitest
+- **API Testing**: Supertest + Vitest
+- **UI Screenshot Testing**: Playwright (for the UI acceptance workflow)
+- **Mocking**: MSW (Mock Service Worker) for API mocking
+
+**Browser Automation for UI Feedback:**
+- Playwright for capturing screenshots across viewports (375px mobile, 768px tablet, 1280px desktop)
+- Automated screenshot comparison and user approval workflow
+- Integration with our task completion process
+
+**Rationale:**
+- Vitest integrates seamlessly with our Vite setup and provides excellent performance
+- Playwright offers superior reliability and screenshot capabilities for E2E and UI acceptance
+- This stack supports TDD, E2E regression testing, and the UI acceptance workflow required by the rule
+
+**Do you approve this testing stack? Respond 'Yes' to approve or provide alternatives.**
+
+Once approved, I'll proceed to review and adjust our current tasks to implement this comprehensive testing strategy, including:
+
+1. Enhanced foundational testing setup
+2. TDD workflow integration into all development tasks
+3. E2E testing for critical user flows (onboarding, mission setup, daily execution)
+4. UI acceptance workflow with screenshot capture and user approval
+5. Proper test documentation in TESTING.md
+
+The current Task 1.8 will be significantly expanded to cover these requirements, and I'll add testing components to other task groups as needed.
+
+
 
 Happy value creation my friends!
 
