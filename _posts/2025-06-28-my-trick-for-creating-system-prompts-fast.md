@@ -42,7 +42,6 @@ This is not a one-off task but a long task with multiple stages.
 We start by a simple example and then we start growing in complexity until we understand the intricacies of building and deploying production grade AI agents.
 ```
 
-
 And I attached the latest Google prompting guide for 2025, wish you can access[Here](https://drive.google.com/file/d/1AbaBYbEa_EbPelsT40-vj64L-2IwUJHy/view)
 
 ## Getting the results
