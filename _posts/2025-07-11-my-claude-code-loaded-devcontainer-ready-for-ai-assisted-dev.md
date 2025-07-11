@@ -64,7 +64,7 @@ All of this is pre-installed and ready to go. No npm install dance, no API key w
 
 ### 🧪 Try It Out!
 
-- Open a terminal and run `claude --version` to check the CLI.
+- Open a terminal and run `claude` to login to the CLI.
 - Use `claude mcp list` to see your available MCPs.
 - Start coding, and let Claude help you with code suggestions, explanations, and task management.
 
