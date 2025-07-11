@@ -44,7 +44,7 @@ I put a repo you can use for that, check it out here [https://github.com/jgonzal
 
 Think of MCPs as “AI plugins” that let Claude Code tap into different sources of context, knowledge, or automation. In this container, you get:
 
-- **Task Master AI**: For managing todos, tracking progress, and keeping your workflow organized.
+- **Task Master AI**: For managing todos, tracking progress, and keeping your workflow organized. [Check out how to use it here](https://github.com/eyaltoledano/claude-task-master/blob/main/docs/tutorial.md#initial-task-generation)
 - **Context7 MCP**: For deep code understanding, context-aware suggestions, and smarter code navigation.
 
 With these MCPs, Claude Code can:
