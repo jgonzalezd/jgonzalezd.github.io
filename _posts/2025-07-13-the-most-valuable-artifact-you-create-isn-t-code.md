@@ -66,7 +66,7 @@ test('test_id: financial_advice_disclaimer', async () => {
 
 Now, the spec isn’t just a cognitive reminder; it's baked into the weights of the model through automated alignment and reinforcement. It has become muscle memory.
 
-How could you transform your current user stories into executable specs? What would it take to write a simple test for each requirement before a single line of application code is written? For this I'm experimenting with Task Manager. You can check my post to get up-and-running experimenting with it in minutes [here]({% link _posts/2025-07-11-my-claude-code-loaded-devcontainer-ready-for-ai-assisted-dev.md %}#here)
+How could you transform your current user stories into executable specs? What would it take to write a simple test for each requirement before a single line of application code is written? For this I'm experimenting with Task Manager. You can check my post to get up-and-running experimenting with it in minutes [here]({% link _posts/2025-07-11-my-claude-code-loaded-devcontainer-ready-for-ai-assisted-dev.md %}#-try-it-out)
 
 ### Specs as a Social Contract
 
