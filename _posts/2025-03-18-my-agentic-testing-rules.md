@@ -2,7 +2,8 @@
 layout: post
 title: My Agentic testing Rules
 date: 2025-06-26 15:55 +0000
-categories: [claude-code, ai-workflow]
+categories: [AI Engineering, Workflows]
+tags: [testing, tdd, e2e, automation, cursor]
 ---
 
 As I work on my current project, I wanted to setup e2e testing as possible and make sure that the Agent don't introduce functionality or UI bugs while working on new features.

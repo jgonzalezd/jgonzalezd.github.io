@@ -2,7 +2,8 @@
 layout: post
 title: The Most Valuable Artifact You Create Isn't Code
 date: 2025-07-13 21:45 +0000
-categories: [startups, philosophy, value-driven engineer, future of coding]
+categories: [Philosophy, Future of Coding]
+tags: [specifications, ai-engineering, communication, value-delivery]
 ---
 
 

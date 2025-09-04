@@ -2,7 +2,7 @@
 layout: post
 title: "From Tuples to Type-Safe Contracts: A Masterclass in the Open/Closed Principle"
 date: 2025-09-04 16:00:13 UTC
-categories: [python, design-patterns, software-engineering]
+categories: [Software Craft, Design Patterns]
 tags: [python, dataclasses, open-closed-principle, refactoring, ai-pair-programming]
 comments: true
 toc: true
@@ -83,67 +83,4 @@ This is a massive improvement over a tuple.
 3.  **Defaults:** I can provide sensible defaults (`http_status_code=400`, `retryable=False`).
 4.  **Immutability:** `frozen=True` prevents the metadata from being accidentally changed at runtime.
 
-With this new data structure in place, I refactored the `Enum`. Instead of tuples, each member is now an instance of our `ErrorMetadata` contract.
-
-```python
-class TokenVerificationErrorReason(Enum):
-    JWK_FAILED_TO_LOAD = ErrorMetadata(
-        code='jwk-failed-to-load',
-        message='Failed to load JWKS from Clerk Backend API...',
-        http_status_code=500,
-        retryable=True,
-        category="infrastructure"
-    )
-
-    TOKEN_EXPIRED = ErrorMetadata(
-        code='token-expired',
-        message='Token has expired and is no longer valid.',
-        http_status_code=401,
-        tags=['auth', 'session']
-    )
-```
-
-The final step was a tiny, one-line change in the exception class.
-
-```python
-class TokenVerificationError(Exception):
-    def __init__(self, reason: TokenVerificationErrorReason):
-        self.reason = reason
-        # Changed from self.reason.value[1] to self.reason.value.message
-        super().__init__(self.reason.value.message)
-```
-
-This single change from an index to a named attribute was the culmination of the whole effort.
-
-## The Payoff: A Flawless Design
-
-With this refactoring, the system is now vastly superior, and crucially, *still* perfectly adheres to the Open/Closed Principle.
-
--   ✅ **Still Open for Extension:** I can add new `ErrorMetadata` fields (like `severity: int` or `documentation_url: str`) without modifying the `Enum` or the `TokenVerificationError` class at all. Existing error definitions will just use the default values for the new fields.
--   ✅ **Still Closed for Modification:** The core components are even more stable than before. Their interaction is based on a clear contract (`ErrorMetadata`) rather than a fragile tuple structure.
-
-The new workflow for handling these errors is a dream.
-
-```python
-try:
-    # ... verification logic ...
-except TokenVerificationError as e:
-    # The code is now readable and robust
-    metadata = e.reason.value
-
-    print(f"Responding with HTTP Status: {metadata.http_status_code}")
-
-    if metadata.retryable:
-        print("Scheduling a retry...")
-
-    if "auth" in metadata.tags:
-        print("Redirecting to login page...")
-```
-
-No more magic numbers. No more ambiguity. Just a clean, readable, and infinitely extensible design.
-
-## Conclusion: Better Principles Make Better Code
-
-This little exploration was a powerful reminder that understanding core design principles is what separates good code from great code. The original implementation was good—it already followed the Open/Closed Principle. But by introducing `dataclasses`, I was able to create a more explicit, robust, and readable contract for the system's components.
-
-It was a perfect example of how an AI pair programmer can be more than just a code generator. By acting as a Socratic partner, it pushed me to question an implementation, validate my intuition, and ultimately arrive at a much stronger, more principled solution.
+With this new data structure in place, I refactored the `Enum`. Instead of tuples, each member is now an instance of our `

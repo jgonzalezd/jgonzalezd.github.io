@@ -2,7 +2,8 @@
 layout: post
 title: Your brain needs a Firewall
 date: 2023-11-21 22:20 +0000
-categories: [philosophy]
+categories: [Philosophy]
+tags: [mental-models, focus, discipline]
 ---
 
 # Your brain is your hardware, your mental models are your OS. You need a Firewall.

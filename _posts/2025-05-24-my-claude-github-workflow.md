@@ -2,7 +2,8 @@
 layout: post
 title: My Claude + Github Workflow
 date: 2025-06-26 14:01 +0000
-categories: [claude-code, ai-workflow]
+categories: [AI Engineering, Workflows]
+tags: [claude, github, automation, testing, developer-experience]
 ---
 
 ## Leveling Up My Claude Code Workflow: It's All About the Cycle!

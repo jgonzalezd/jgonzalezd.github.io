@@ -1,1 +1,1 @@
-rvm use ruby-3.4.4@jgonzalezd.github.io
+rvm use ruby-3.4.4@jgonzalezd.github.io --create

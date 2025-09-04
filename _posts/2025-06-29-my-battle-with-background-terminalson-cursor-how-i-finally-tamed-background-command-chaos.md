@@ -2,7 +2,8 @@
 layout: post
 title: 'I Taught My AI Agent How to Stop Leaving Zombie Processes Everywhere'
 date: 2025-06-29 23:15 +0000
-categories: [cursor, ai-workflow]
+categories: [Software Craft, Technical Tips]
+tags: [debugging, automation, developer-experience, shell-scripting, cursor]
 ---
 
 

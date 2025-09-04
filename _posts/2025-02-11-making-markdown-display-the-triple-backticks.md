@@ -2,6 +2,8 @@
 layout: post
 title: Making markdown display the triple backticks
 date: 2025-06-26 17:45 +0000
+categories: [Software Craft, Technical Tips]
+tags: [markdown]
 ---
 
 This is a tricky one and I spend a lot of time fiddling with this. And, Grok failed miserably at helping, however Gemini 2.5 Pro nailed perfectly:

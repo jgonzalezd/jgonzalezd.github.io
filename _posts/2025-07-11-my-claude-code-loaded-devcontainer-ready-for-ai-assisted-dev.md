@@ -2,6 +2,8 @@
 layout: post
 title: My Claude Code loaded Devcontainer ready for AI-assisted dev
 date: 2025-07-11 05:53 +0000
+categories: [AI Engineering, Tooling]
+tags: [devcontainer, vscode, claude, automation, docker]
 ---
 
 
@@ -76,15 +78,3 @@ All of this is pre-installed and ready to go. No npm install dance, no API key w
 - Node not found? `source ~/.bashrc`
 - Claude CLI acting up?  
   ```
-  npm install -g @anthropic-ai/claude-code
-  npm install -g task-master-ai@latest
-  claude mcp add taskmaster "$(which task-master-ai)"
-  claude mcp add --transport sse context7 https://mcp.context7.com/sse
-  ```
-
----
-
-**Bottom line:**  
-This dev container is your launchpad for new projects—AI-powered, database-ready, and hassle-free. Open it up, start building, and let the tools do the heavy lifting.
-
-Happy coding! 🚀

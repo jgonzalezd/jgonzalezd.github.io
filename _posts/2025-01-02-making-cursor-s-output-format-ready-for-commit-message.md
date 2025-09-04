@@ -2,7 +2,8 @@
 layout: post
 title: Making Cursor's Output format ready for commit message
 date: 2025-06-26 17:12 +0000
-categories: [claude-code, ai-workflow]
+categories: [AI Engineering, Workflows]
+tags: [git, automation, developer-experience]
 ---
 
 When the agent finishes it's current task and after I review it, I like to use its output as the commit message to summarize what's been done in that commit. 
