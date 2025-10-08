@@ -1,0 +1,73 @@
+{
+  "folders": [
+    {
+      "path": "."
+    },
+    {
+      "path": "../",
+      "name": "workspace"
+    }
+  ],
+  "settings": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnSave": true,
+    "files.associations": {
+      "*.html": "liquid"
+    },
+    "[markdown]": {
+      "editor.defaultFormatter": "yzhang.markdown-all-in-one"
+    },
+    "[html][liquid]": {
+      "editor.defaultFormatter": "Shopify.theme-check-vscode"
+    },
+    "[shellscript]": {
+      "editor.defaultFormatter": "mkhl.shfmt"
+    },
+    "css.validate": false,
+    "scss.validate": false,
+    "less.validate": false,
+    "stylelint.snippet": ["css", "scss"],
+    "stylelint.validate": ["css", "scss"],
+    "terminal.integrated.profiles.osx": {
+      "zsh": { "path": "/bin/zsh", "args": ["-l", "-i"] }
+    }
+  },
+  "extensions": {
+    "recommendations": [
+      "ms-vscode-remote.remote-containers"
+    ]
+  },
+  "tasks": {
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Run Jekyll Server",
+        "type": "shell",
+        "command": "./tools/run.sh",
+        "group": {
+          "kind": "build",
+          "isDefault": true
+        },
+        "problemMatcher": [],
+        "detail": "Runs the Jekyll server with live reload."
+      },
+      {
+        "label": "Test Jekyll Site",
+        "type": "shell",
+        "command": "./tools/test.sh",
+        "group": {
+          "kind": "build"
+        },
+        "problemMatcher": [],
+        "detail": "Build the Jekyll site for production."
+      },
+      {
+        "label": "New Blog Post",
+        "type": "shell",
+        "command": "bash -c 'read -p \"Post title: \" title; bundle exec jekyll post \"$title\"'",
+        "problemMatcher": [],
+        "detail": "Create a new blog post using jekyll-compose. Prompts for the post title."
+      }
+    ]
+  }
+}
