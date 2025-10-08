@@ -6,8 +6,6 @@ date: 2025-10-08 20:52 +0000
 tags: ["Rails", "Propshaft", "Tailwind CSS", "Asset Pipeline", "Cache Invalidation", "Web Development"]
 ---
 
-# **Navigating the Tailwind CSS v4 Configuration Shift in a Rails 8 Context**
-
 The integration of Tailwind CSS into the Rails ecosystem, primarily via the `tailwindcss-rails` gem, has traditionally centered on a familiar artifact: `config/tailwind.config.js`. With the advent of Tailwind CSS v4, this paradigm undergoes a foundational shift, deprecating the JavaScript configuration file in favor of a CSS-first model. For senior Rails engineers, this transition moves the framework's configuration surface from the `config` directory directly into the asset pipeline. This post provides a technical analysis of this evolution, mapping established v3 patterns to their v4 equivalents within a modern Rails 8 application.
 
 The core change is the consolidation of configuration into the main stylesheet entry point, typically `app/assets/stylesheets/application.tailwind.css`. This move not only co-locates configuration with styling directives but also simplifies the toolchain, aligning Tailwind more closely with Rails' asset management conventions.
