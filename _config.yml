@@ -216,12 +216,11 @@ exclude:
   - "*.config.js"
   - "package*.json"
 
-# Disable jekyll-archives to avoid duplicate tag/category pages with the Chirpy theme
-# jekyll-archives:
-#   enabled: [categories, tags]
-#   layouts:
-#     category: category
-#     tag: tag
-#   permalinks:
-#     tag: /tags/:name/
-#     category: /categories/:name/
+jekyll-archives:
+  enabled: [categories, tags]
+  layouts:
+    category: category
+    tag: tag
+  permalinks:
+    tag: /tags/:name/
+    category: /categories/:name/

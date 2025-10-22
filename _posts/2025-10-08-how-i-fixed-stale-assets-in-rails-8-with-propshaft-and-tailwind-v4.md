@@ -2,7 +2,7 @@
 layout: post
 description: "A deep dive into solving Propshaft asset cache invalidation issues when using Tailwind CSS v4 with external build tools. Learn why assets weren't updating and how to implement the proper architectural solution."
 date: "2025-10-08"
-tags: ["Rails", "Propshaft", "Tailwind CSS", "Asset Pipeline", "Cache Invalidation", "Web Development"]
+tags: ["ruby-on-rails", "propshaft", "tailwind-css", "asset-pipeline", "cache-invalidation"]
 ---
 
 As a developer working with Rails 8 and the modern Propshaft asset pipeline, I recently encountered a frustrating issue that had me scratching my head for hours. I was using Tailwind CSS v4 with its external CLI build process, but my CSS changes weren't being reflected in the browser, even after restarting the development server. The asset fingerprints were staying the same, and I was getting stale CSS served to my browser.
