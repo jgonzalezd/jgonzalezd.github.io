@@ -54,7 +54,7 @@ From this point on, for the entire lifecycle of that single request, you can cal
 
 ### How It Actually Works (It's Just a Fancy, Thread-Local Singleton)
 
-![](../assets/img/2025-10-22-digging-into-the-current-pattern-in-modern-ruby-on-rails/meme1.png){: width="250" }
+![---](/assets/img/2025-10-22-digging-into-the-current-pattern-in-modern-ruby-on-rails/meme1.png){: width="250" }
 
 So I dug a little deeper. This isn't a true global variable. If it were, you'd have a catastrophic race condition on any multi-threaded web server like Puma. Request A's user would overwrite Request B's user, and chaos would ensue.
 

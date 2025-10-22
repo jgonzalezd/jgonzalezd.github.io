@@ -70,7 +70,7 @@ All of this is pre-installed and ready to go. No npm install dance, no API key w
 - Use `claude mcp list` to see your available MCPs.
 - Start coding, and let Claude help you with code suggestions, explanations, and task management.
 - Use the Task Master:
-![Task Master](../assets/img/2025-07-11-my-claude-code-loaded-devcontainer-ready-for-ai-assisted-dev/taskmaster_parse_prd.png){: width="750" }
+![Task Master](/assets/img/2025-07-11-my-claude-code-loaded-devcontainer-ready-for-ai-assisted-dev/taskmaster_parse_prd.png){: width="750" }
 
 ### 🛟 Troubleshooting?
 
