@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Choosing a modern Auth mechanism in Rails for The Outperformer OS
-categories: ["Ruby On Rails", "Startup"]
-tags: [ruby-on-rails, authentication]
+categories:
+- Ruby On Rails
+- Startup
+tags:
+- authentication
+- ruby-on-rails
 date: 2025-10-22 16:35 +0000
 ---
 

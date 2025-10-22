@@ -1,0 +1,80 @@
+vocabulary:
+  - ruby-on-rails
+  - propshaft
+  - tailwind-css
+  - asset-pipeline
+  - cache-invalidation
+  - developer-experience
+  - automation
+  - testing
+  - tdd
+  - e2e
+  - ai-coach
+  - ai-engineering
+  - ai-pair-programming
+  - debugging
+  - system-prompts
+  - meta-prompting
+  - specifications
+  - communication
+  - value-delivery
+  - mental-models
+  - focus
+  - discipline
+  - python
+  - dataclasses
+  - open-closed-principle
+  - refactoring
+  - claude
+  - github
+  - git
+  - cursor
+  - devcontainer
+  - vscode
+  - web-development
+
+synonyms:
+  rails: ruby-on-rails
+  tailwind: tailwind-css
+  tailwindcss: tailwind-css
+  asset pipeline: asset-pipeline
+  cache invalidation: cache-invalidation
+  dx: developer-experience
+
+tag_to_category:
+  ruby-on-rails: Ruby On Rails
+  propshaft: Ruby On Rails
+  tailwind-css: Ruby On Rails
+  asset-pipeline: Ruby On Rails
+  cache-invalidation: Ruby On Rails
+  python: Software Engineering
+  dataclasses: Software Engineering
+  open-closed-principle: Software Engineering
+  refactoring: Software Engineering
+  testing: Software Engineering
+  tdd: Software Engineering
+  e2e: Software Engineering
+  automation: Software Engineering
+  developer-experience: Software Engineering
+  ai-coach: AI Engineering
+  ai-engineering: AI Engineering
+  ai-pair-programming: AI Engineering
+  system-prompts: AI Engineering
+  meta-prompting: AI Engineering
+  mental-models: Personal Effectiveness
+  focus: Personal Effectiveness
+  discipline: Personal Effectiveness
+  specifications: Software Engineering
+  communication: Software Engineering
+  value-delivery: Software Engineering
+  claude: AI Engineering
+  github: Software Engineering
+  git: Software Engineering
+  cursor: Developer Tools
+  devcontainer: Developer Tools
+  vscode: Developer Tools
+  web-development: Software Engineering
+
+max_tags: 5
+min_score: 0.2
+

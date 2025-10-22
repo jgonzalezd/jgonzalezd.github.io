@@ -2,8 +2,17 @@
 layout: post
 title: My trick for creating System Prompts Fast (Meta-Prompting)
 date: 2025-06-28 01:20 +0000
-categories: [AI Engineering, Prompting]
-tags: [meta-prompting, system-prompts, ai-coach]
+categories:
+- AI Engineering
+- Prompting
+- Software Engineering
+tags:
+- ai-coach
+- ai-engineering
+- github
+- meta-prompting
+- system-prompts
+- testing
 ---
 
 Every day I find tasks that AI can do much better than I can. One of these is defining a process to accomplish a long-term goal.

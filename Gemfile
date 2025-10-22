@@ -14,3 +14,12 @@ platforms :mingw, :x64_mingw, :mswin, :jruby do
 end
 
 gem "wdm", "~> 0.2.0", :platforms => [:mingw, :x64_mingw, :mswin]
+
+# Development utilities for auto taxonomy task
+group :development do
+  gem "front_matter_parser", "~> 1.0"
+  gem "pragmatic_tokenizer", "~> 0.4"
+  gem "engtagger", "~> 0.2"
+  gem "tf-idf-similarity", "~> 0.1"
+  gem "activesupport", "~> 7.1"
+end

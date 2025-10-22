@@ -2,12 +2,24 @@
 layout: post
 title: The Most Valuable Artifact You Create Isn't Code
 date: 2025-07-13 21:45 +0000
-categories: [Philosophy, Future of Coding]
-tags: [specifications, ai-engineering, communication, value-delivery]
+categories:
+- Philosophy
+- Future of Coding
+- AI Engineering
+- Software Engineering
+- Developer Tools
+- Personal Effectiveness
+tags:
+- ai-engineering
+- claude
+- communication
+- devcontainer
+- focus
+- specifications
+- value-delivery
 ---
 
-
-Most software engineers believe their primary job is to write code. They’re wrong.
+Most software engineers believe their primary job is to write code. They're wrong.
 
 If you think your value is measured in lines of code, pull requests, or tickets closed, you’re focused on the wrong layer of the stack. That’s the output, not the outcome. It's the *how*, not the *why*. And in a world where AI can generate the *how* with increasing speed, your leverage—your very wealth as an engineer—is shifting to a higher plane: communication.
 

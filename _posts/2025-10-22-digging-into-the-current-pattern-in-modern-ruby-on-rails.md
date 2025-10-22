@@ -1,8 +1,12 @@
 ---
 layout: post
 title: Digging into the `Current` pattern in modern Ruby on Rails
-tags: [design-patterns, ruby-on-rails]
-categories: ["Ruby On Rails", "Software Engineering"]
+tags:
+- design-patterns
+- ruby-on-rails
+categories:
+- Ruby On Rails
+- Software Engineering
 date: 2025-10-22 15:18 +0000
 ---
 

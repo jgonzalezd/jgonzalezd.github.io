@@ -60,6 +60,42 @@ For more about the author, see [`_tabs/about.md`](_tabs/about.md) or the [portfo
 - Each post contains practical examples, code snippets, and actionable workflows.
 - Source code and configuration for the blog are in this repository.
 
+### 🤖 Auto-Taxonomy Feature
+
+This blog includes an automated system for suggesting and applying tags and categories to posts based on content analysis:
+
+#### Usage
+
+1. **Run auto-taxonomy suggestions:**
+   ```bash
+   bundle exec rake auto:taxonomies
+   ```
+
+2. **What it does:**
+   - Analyzes post content using NLP (TF-IDF, keyword extraction)
+   - Suggests relevant tags and categories from a controlled vocabulary
+   - Updates post front matter with normalized tags (kebab-case)
+   - Maintains consistency across the site's taxonomy
+
+3. **Configuration:**
+   - Controlled vocabulary: `_data/taxonomy.yml`
+   - Tag normalization: kebab-case (e.g., "Ruby on Rails" → "ruby-on-rails")
+   - Categories: title-case for display
+   - Maximum 5 tags per post
+
+4. **Integration:**
+   - Run before committing new posts
+   - CI/CD can enforce taxonomy consistency
+   - Works with existing Jekyll archives plugin
+
+#### Dependencies
+
+The auto-taxonomy feature requires these gems (already in Gemfile):
+- `pragmatic_tokenizer` - Text tokenization
+- `engtagger` - Part-of-speech tagging and keyword extraction
+- `tf-idf-similarity` - Content similarity analysis
+- `front_matter_parser` - YAML front matter parsing
+
 ---
 
 ## 📄 License

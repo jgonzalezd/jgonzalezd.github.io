@@ -1,10 +1,22 @@
 ---
 layout: post
 title: Navigating the Tailwind CSS v4 Configuration Shift in a Rails 8 Context
-description: A technical guide to configuring Tailwind CSS v4 in Rails 8, detailing the migration from the deprecated tailwind.config.js to the new CSS-first @theme directive.
+description: A technical guide to configuring Tailwind CSS v4 in Rails 8, detailing
+  the migration from the deprecated tailwind.config.js to the new CSS-first @theme
+  directive.
 date: 2025-10-08 20:52 +0000
-categories: ["Ruby On Rails", "Frontend"]
-tags: ["ruby-on-rails", "propshaft", "tailwind-css", "asset-pipeline", "cache-invalidation"]
+categories:
+- Ruby On Rails
+- Frontend
+- Software Engineering
+tags:
+- asset-pipeline
+- automation
+- cache-invalidation
+- developer-experience
+- propshaft
+- ruby-on-rails
+- tailwind-css
 ---
 
 The integration of Tailwind CSS into the Rails ecosystem, primarily via the `tailwindcss-rails` gem, has traditionally centered on a familiar artifact: `config/tailwind.config.js`. With the advent of Tailwind CSS v4, this paradigm undergoes a foundational shift, deprecating the JavaScript configuration file in favor of a CSS-first model. For senior Rails engineers, this transition moves the framework's configuration surface from the `config` directory directly into the asset pipeline. This post provides a technical analysis of this evolution, mapping established v3 patterns to their v4 equivalents within a modern Rails 8 application.

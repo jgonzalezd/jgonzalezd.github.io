@@ -1,11 +1,22 @@
 ---
 layout: post
-title: 'I Taught My AI Agent How to Stop Leaving Zombie Processes Everywhere'
+title: I Taught My AI Agent How to Stop Leaving Zombie Processes Everywhere
 date: 2025-06-29 23:15 +0000
-categories: [Software Craft, Technical Tips]
-tags: [debugging, automation, developer-experience, shell-scripting, cursor]
+categories:
+- Software Craft
+- Technical Tips
+- Software Engineering
+- Developer Tools
+- Personal Effectiveness
+tags:
+- automation
+- cursor
+- debugging
+- developer-experience
+- focus
+- shell-scripting
+- testing
 ---
-
 
 Let me tell you about a workflow nightmare that wasn't really a bug – it was slowly driving me insane. Picture this: you're deep in the zone, working on a complex Node.js API project, and every time the AI agent needs to test the server, it fires off a terminal command in the background. From the agent's perspective, this means no output, no feedback, just... digital silence.
 

@@ -2,10 +2,20 @@
 layout: post
 title: My Claude Code loaded Devcontainer ready for AI-assisted dev
 date: 2025-07-11 05:53 +0000
-categories: [AI Engineering, Tooling]
-tags: [devcontainer, vscode, claude, automation, docker]
+categories:
+- AI Engineering
+- Tooling
+- Software Engineering
+- Developer Tools
+tags:
+- automation
+- claude
+- devcontainer
+- docker
+- github
+- python
+- vscode
 ---
-
 
 ## 🚀 Jumpstart Your Next Project with Our Dev Container: AI-Ready, Database-Ready, and Zero Hassle
 

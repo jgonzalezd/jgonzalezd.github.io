@@ -67,6 +67,16 @@
         "command": "bash -c 'read -p \"Post title: \" title; bundle exec jekyll post \"$title\"'",
         "problemMatcher": [],
         "detail": "Create a new blog post using jekyll-compose. Prompts for the post title."
+      },
+      {
+        "label": "Auto-Taxonomy Suggestions",
+        "type": "shell",
+        "command": "bundle exec rake auto:taxonomies",
+        "group": {
+          "kind": "build"
+        },
+        "problemMatcher": [],
+        "detail": "Run auto-taxonomy analysis to suggest and apply tags/categories to posts based on content analysis."
       }
     ]
   }

@@ -1,9 +1,18 @@
 ---
 layout: post
-title: "From Tuples to Type-Safe Contracts: A Masterclass in the Open/Closed Principle"
+title: 'From Tuples to Type-Safe Contracts: A Masterclass in the Open/Closed Principle'
 date: 2025-09-04 16:00:13 UTC
-categories: [Software Craft, Design Patterns]
-tags: [python, dataclasses, open-closed-principle, refactoring, ai-pair-programming]
+categories:
+- Software Craft
+- Design Patterns
+- AI Engineering
+- Software Engineering
+tags:
+- ai-pair-programming
+- dataclasses
+- open-closed-principle
+- python
+- refactoring
 comments: true
 toc: true
 ---
