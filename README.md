@@ -1,6 +1,6 @@
 # jgonzalez.dev Blog
 
-Welcome to [jgonzalez.dev](https://jgonzalez.dev) — a blog by Julian Gonzalez focused on AI workflows, agentic development, productivity systems, and engineering best practices. Here you'll find deep dives into building with AI, practical workflow automation, and lessons learned from real-world software projects.
+Welcome to [jgonzalez.dev](https://jgonzalez.dev) — a blog by Julian Gonzalez focused on Software Engineering best practices, DevOps, agentic development,and entrepreneurship. Here you'll find deep dives into building with and without AI, lessons learned from real-world software projects and geek deep dives into technical challenges I find along the way.
 
 ---
 
