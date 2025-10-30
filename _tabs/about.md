@@ -4,18 +4,13 @@ icon: fas fa-info-circle
 order: 3
 ---
 
-If you think I'd be a good fit for your team, please **reach out:** _julian@reliable-coding.com_
 
-I'd love to know what you're working on.
+I'm a Senior Software Engineer with a passion for building products customer love.
 
+I've been helping SaaS startups build and scale their products for more than a decade, I have the perfect blend of technical skills and pragmatic balance that a product-driven engineer needs to help startups deliver is value proposition to their customers. 
 
-> A seasoned Full-Stack Senior Software Engineer with a passion for product development and specialty coffee. 
+Driven by technical challenges under time and budget constraints, I excel specifically within fast-paced startup ecosystems. I am committed to making a profound impact on the product roadmap and team efficacy, always executing with a high degree of urgency and accountability.
 
-> As a product-driven engineer my focus has always been on understanding customer needs and building products to alleviate their pains, thereby delivering high value. 
+My full-spectrum expertise spans diverse stacks (Ruby, JS, Python, Java) and includes critical competencies in DevOps and infrastructure automation. This breadth allows me to rapidly master new tools and architectures required by the fast-changing startup environment.
 
-> During my career, I've worn multiple hats as my roles have been mostly in early or mid-stage startups, where I can contribute the most. From building MVPs from scratch to delivering new features at fast pace on more mature organizations; or supporting internal processes like automating infrastructure, setting up CI/CD development pipelines, building a small team, handling customer success conversations and even championing compliance processes (SOC2) for regulated industries. 
-
-> My experience in leading cost optimization projects blends my focus on efficiency and software architecture.
-
-> My technical expertise, customer focus, and strategic thinking positions me well to tackle software engineering challenges and deliver significant value when working closely with C-Level roles on early stage startups and technical leadership roles on bigger organizations.
-<!-- {: .prompt-tip } -->
+**Reach out:** _julian@reliable-coding.com_
