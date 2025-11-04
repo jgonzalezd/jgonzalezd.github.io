@@ -41,9 +41,9 @@ The application goes beyond a simple click track and includes advanced features 
 Mobile version will be provided once it hits 10K/mo users.
 
 ## Leet Code Visual
-Website: [http://leetcodevisual.com](http://leetcodevisual.com)
+Website: [https://leetcodevisual.com](https://leetcodevisual.com)
 
-I built `http://leetcodevisual.com` to help make abstract data structures and algorithms tangible. The tool offers step-by-step animations of LeetCode solutions, clarifying how data is manipulated at each stage of an algorithm's execution. It's a practical tool for anyone looking to deepen their understanding of core computer science concepts. 
+I built `https://leetcodevisual.com` to help make abstract data structures and algorithms tangible. The tool offers step-by-step animations of LeetCode solutions, clarifying how data is manipulated at each stage of an algorithm's execution. It's a practical tool for anyone looking to deepen their understanding of core computer science concepts. 
 
 <div style="text-align: center; margin: 20px 0;">
   <img src="/assets/img/portfolio/leetcodevisual.png" alt="LeetCode Visual Screenshot" style="max-width: 40%; height: auto; border-radius: 8px;">
