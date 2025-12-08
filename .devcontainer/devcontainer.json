@@ -25,5 +25,14 @@
         "mhutchie.git-graph"
       ]
     }
-  }
+  },
+  "mounts": [
+    // SSH keys for git operations
+    {
+      "source": "${localEnv:HOME}${localEnv:USERPROFILE}/.ssh",
+      "target": "/home/vscode/.ssh",
+      "type": "bind",
+      "consistency": "cached"
+    }
+  ]
 }
