@@ -29,5 +29,5 @@ And yes, it preserves the body in readable Markdown, the images are linked autom
 
 ![Converted article content example](/assets/img/2026-03-31-x-to-obsidian/converted-article.png){: width="250" }
 
-If you're a heavy Obsidian user, you'll appreciate this extension and use it almost daily.
+If you're a heavy Obsidian user, you'll appreciate this extension and use it almost daily. **Repo:** [jgonzalezd/x-article-2-obsidian-md](https://github.com/jgonzalezd/x-article-2-obsidian-md).
 
