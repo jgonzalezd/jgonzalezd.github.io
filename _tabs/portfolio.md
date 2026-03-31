@@ -10,6 +10,16 @@ Website: [https://outperformeros.com](https://outperformeros.com)
 A web application to help you **rewire your mind for success**, transforming you into the kind of person who has the **focus and self-mastery** to achieve any goal you set.
 
 
+## X to Obsidian
+Repository: [github.com/jgonzalezd/x-article-2-obsidian-md](https://github.com/jgonzalezd/x-article-2-obsidian-md)
+
+A Chrome/Brave extension that turns an X.com article into Obsidian-ready Markdown: YAML front matter (title, author, date, source, tags), the article body, and images packaged in a zip you can drop into your vault. Built for anyone who saves long-form posts into Obsidian and wants clean files for search, linking, and AI-assisted workflows.
+
+<div style="text-align: center; margin: 20px 0;">
+  <img src="/assets/img/2026-03-31-x-to-obsidian/extension-popup.png" alt="X to Obsidian extension popup" style="max-width: 55%; height: auto; border-radius: 8px;">
+</div>
+
+
 ## MetronomeOnline.app
 Website: [https://metronomeonline.app](https://metronomeonline.app)
 
